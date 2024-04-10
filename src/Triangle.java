@@ -31,7 +31,7 @@ public class Triangle extends Shape
     @Override
     public String toString()
     {
-        return String.format("[%s,%s,%s]-- Area: %.2f Perimeter %.2f",point('A'),point('B'),point('C'),area(),perimeter()); 
+        return String.format("[%s,%s,%s]-- Area: %.2f Perimeter: %.2f",point('A'),point('B'),point('C'),area(),perimeter());
     }
 
     //returns the lineSegment from point(0) to point(1)
